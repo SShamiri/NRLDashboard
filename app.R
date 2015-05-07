@@ -36,8 +36,7 @@ twitterHandle$followers <- followers
 
 
 options(httr_oauth_cache = TRUE) 
-setup_twitter_oauth("IvrDnTHaczIAQBOAumidAw", "FyUIBVMuwCyyHu0H2yjDttVtVSAGPGU6E4nfEoWOBBg",
-                    "1429490635-rdvUYDtPERc6iZdCe1bwyaZ8QyWXiLvX0CgOsxl","DPdSRQ5todzxa2hfDcmxDoL0ysci15muI0Aon2vezw" )
+setup_twitter_oauth(CUSTOMER_KEY, CUSTOMER_SECRET, ACCESS_TOKEN, ACCESS_secret )
 
 ########## ui Shiny 
 
